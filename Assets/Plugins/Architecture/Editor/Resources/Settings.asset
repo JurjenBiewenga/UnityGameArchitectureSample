@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4ae052b836af54c802ac0224fdc6fb, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  sourceGenerationPath: Scriptable Objects/Scripts
+  namespaceName: Architecture
+  variableTypes:
+  - m_Name: Int32
+    m_AssemblyQualifiedName: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+    m_AssemblyName: System.Int32
+  - m_Name: Single
+    m_AssemblyQualifiedName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+    m_AssemblyName: System.Single
+  - m_Name: Boolean
+    m_AssemblyQualifiedName: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+    m_AssemblyName: System.Boolean
+  - m_Name: LayerMask
+    m_AssemblyQualifiedName: UnityEngine.LayerMask, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_AssemblyName: UnityEngine.LayerMask
+  - m_Name: String
+    m_AssemblyQualifiedName: System.String, mscorlib, Version=2.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+    m_AssemblyName: System.String
+  - m_Name: Level
+    m_AssemblyQualifiedName: Level, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: Level
+  - m_Name: World
+    m_AssemblyQualifiedName: World, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: World
+  - m_Name: AnimationCurve
+    m_AssemblyQualifiedName: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_AssemblyName: UnityEngine.AnimationCurve
+  - m_Name: FalloffCurve
+    m_AssemblyQualifiedName: FalloffCurve, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: FalloffCurve
+  runtimeSetTypes:
+  - m_Name: Item
+    m_AssemblyQualifiedName: Item, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: Item
+  - m_Name: Enemy
+    m_AssemblyQualifiedName: Enemy, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: Enemy
+  staticSetTypes:
+  - m_Name: Item
+    m_AssemblyQualifiedName: Item, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: Item
+  - m_Name: Enemy
+    m_AssemblyQualifiedName: Enemy, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: Enemy
+  - m_Name: Level
+    m_AssemblyQualifiedName: Level, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: Level
+  - m_Name: World
+    m_AssemblyQualifiedName: World, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    m_AssemblyName: World
+  - m_Name: BaseVariable
+    m_AssemblyQualifiedName: Architecture.BaseVariable, Assembly-CSharp-firstpass,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_AssemblyName: Architecture.BaseVariable
+  eventTypes:
+  - name: Entity
+    parameters:
+    - m_Name: Entity
+      m_AssemblyQualifiedName: Entity, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      m_AssemblyName: Entity
+  singleComponentReferenceTypes: []

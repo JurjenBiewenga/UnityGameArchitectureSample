@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b0d21b10e6523478bcec86f88051c7, type: 3}
+  m_Name: EntityMask
+  m_EditorClassIdentifier: 
+  Persistent: 0
+  DefaultValue:
+    serializedVersion: 2
+    m_Bits: 256
+  Value:
+    serializedVersion: 2
+    m_Bits: 256

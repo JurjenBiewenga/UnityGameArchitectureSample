@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377fd4874a74a76478a738083936aec2, type: 3}
+  m_Name: Headbutt
+  m_EditorClassIdentifier: 
+  CooldownLength:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 62cf41bc14b229944b0589a35d757769, type: 2}
+    UseConstant: 0
+  Length:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: e98747e26b1bbba4687577150ec162d6, type: 2}
+    UseConstant: 0
+  SpeedModifier:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 28e23d4456d77a846aba92d2a94ce614, type: 2}
+    UseConstant: 0
+  ResistanceModifier:
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    UseConstant: 1
+  DamageModifier:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 572ca3e8709ff9b429105d3bae1eb81a, type: 2}
+    UseConstant: 0
+  KnockbackModifier:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: b6ea908dabbad624b99fce7c35b32447, type: 2}
+    UseConstant: 0
+  HealOnUsePercentage:
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    UseConstant: 1

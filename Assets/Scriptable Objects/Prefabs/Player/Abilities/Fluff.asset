@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 377fd4874a74a76478a738083936aec2, type: 3}
+  m_Name: Fluff
+  m_EditorClassIdentifier: 
+  CooldownLength:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 781af7e32bf4e7e4ca800ccf334cd474, type: 2}
+    UseConstant: 0
+  Length:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: a3d75a29bf6948448be1268d7eed14e1, type: 2}
+    UseConstant: 0
+  SpeedModifier:
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    UseConstant: 1
+  ResistanceModifier:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 7268da0f87b20654f81060e440a5ec28, type: 2}
+    UseConstant: 0
+  DamageModifier:
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    UseConstant: 1
+  KnockbackModifier:
+    ConstantValue: 0
+    Variable: {fileID: 0}
+    UseConstant: 1
+  HealOnUsePercentage:
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 5cd099a1773ed1e4bb2c730c7036f891, type: 2}
+    UseConstant: 0
